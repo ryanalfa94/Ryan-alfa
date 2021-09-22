@@ -1,0 +1,178 @@
+/* TAGS*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50 auto 0 auto;
+  padding-top: 100px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF
+}
+
+h3 {
+  color: #11999E
+}
+
+a {
+  color: #11999E
+}
+
+a :hover{
+  color: #EAF6F6;
+}
+
+div{
+  margin: 100px auto;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-color: #E4D8DC;
+  border-width: 5px;
+  width: 5%;
+}
+
+
+
+/*CLASSES*/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  margin:-100px auto auto auto;
+}
+
+.middle-container {
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 50px 0;
+  margin:0 auto;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.top-h2 {
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px 0 100px 0;
+  line-height: 2;
+  text-align: left;
+
+}
+
+
+.code-img{
+width: 25%;
+float: left;
+margin-left: 30px;
+}
+.game-img{
+width: 25%;
+float: right;
+margin-right: 30px;
+}
+
+
+.skills{
+  width: 50%;
+  height:50%;
+}
+
+
+.bio-decribtion{
+  color:#40514E;
+}
+
+.code-decribtion{
+  font-size: 20px;
+}
+
+.game-decribtion{
+  font-size: 20px;
+}
+
+.btn {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #1E62D0);
+   background-image: -moz-linear-gradient(top, #66BFBF, #1E62D0);
+   background-image: -ms-linear-gradient(top, #66BFBF, #1E62D0);
+   background-image: -o-linear-gradient(top, #66BFBF, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 25px;
+   font-weight: 100;
+   padding: 29px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 0 1px 0 #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 0;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.contact-me{
+  padding-bottom: 10px;
+}
+
+.footer-link{
+  margin:10px 20px;
+}
+.copy-right{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding-top: 10px;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px
+}
